@@ -11,6 +11,9 @@
             case 'user':
                 $page = 'user';
                 break;
+                case 'post':
+                $page='post';
+                break;
             case 'signin':
                 $page = 'signin';
                 break;
@@ -28,7 +31,7 @@
         $page = 'home';
     }
 
-    
+    include_once("../model/".$page.".php");
 
     include_once("../view/".$page.".php");
     echo "Footer";
