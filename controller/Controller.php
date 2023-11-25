@@ -1,4 +1,5 @@
 <?php 
+    include_once '../config.php';
     echo "MENU!";
     if(isset($_GET['page'])) {
         switch($_GET['page']) {
