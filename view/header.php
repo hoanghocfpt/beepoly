@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../view/styles/style.css">
-    <link rel="stylesheet" href="../view/styles/home.css">
-    <link rel="stylesheet" href="../view/styles/blog.css">
-    <link rel="stylesheet" href="../view/styles/post.css">
+    <link rel="stylesheet" href="<?php echo $url?>view/css/style.css">
+    <link rel="stylesheet" href="<?php echo $url?>view/css/home.css">
+    <link rel="stylesheet" href="<?php echo $url?>view/css/blog.css">
+    <link rel="stylesheet" href="<?php echo $url?>view/css/post.css">
 
 </head>
 <body>
@@ -32,14 +32,14 @@
         <nav class="navmain">
             <div class="navmain_container">
                 <div class="logo">
-                    <a href="#">
-                        <img src="../view/images/logo.jpg" alt="">
+                    <a href="<?php echo $url?>home">
+                        <img src="<?php echo $url?>view/images/logo.jpg" alt="">
                     </a>
                 </div>
                 <div class="nav_link">
                     <ul>
-                        <li><a href="">Trang chủ</a></li>
-                        <li><a href="<?php echo $url?>/Controller.php?page=blog">Bài viết</a></li>
+                        <li><a href="<?php echo $url?>home">Trang chủ</a></li>
+                        <li><a href="<?php echo $url?>blog">Bài viết</a></li>
                         <li>
                             <span>
                                 Các chủ đề 
@@ -55,7 +55,7 @@
                                 <li><a href="#">Chủ đề 4</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">Về chúng tôi</a></li>
+                        <li><a href="<?php $url?>page/about">Về chúng tôi</a></li>
                     </ul>
                 </div>
                 <div class="right">

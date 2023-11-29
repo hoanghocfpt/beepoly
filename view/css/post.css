@@ -1,0 +1,207 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    overflow-x:hidden;
+}
+
+.container nav{
+    display: flex;
+    width: 100%;
+    text-align: justify;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav .menu ul{
+    list-style: none;
+}
+
+nav .menu ul li{
+    float: left;
+    line-height: 35px;
+    padding: 0 15px;
+}
+
+nav .menu ul li a{
+    color: black;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+input .icon_search{
+    width: 10px;
+}
+
+input .btn_signin{
+    width: 10px;
+        
+}
+
+.input {
+    gap: 15px;
+    display: flex;
+}
+
+
+
+li{
+    list-style: none;
+}
+
+
+
+.container-fluid{
+    padding-left: 600px;
+}
+
+
+.d-flex{
+    width: 350px; 
+  height: 40px;
+}
+
+
+
+.btn_signin button {
+    background-color: #092856;
+   
+    padding: 10px 8px;
+    border-radius: 5px;
+
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+
+.menu li {
+    position: relative;
+}
+  
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    
+
+}
+  
+.menu li:hover .submenu {
+    display: block;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #092856;
+}
+
+.banner img{
+    width: 66%;
+    border-radius: 5px;
+    position: absolute;
+    
+}
+
+.homepage h4{
+    color: black;
+}
+.banner-user img{
+  width: 1500px;
+  height: 300px;
+
+  /* position: absolute; */
+} 
+
+
+.avater{
+    margin-left: 670px;
+   
+}
+.avater>img{
+    margin-top: 15px;
+}
+.input-blog {
+    background-color:aliceblue;
+    padding-left: 100px;
+    color: black;
+}
+
+.avater img{
+    left: 250px;
+    border-radius: 24px;
+    width: 1000px;
+    height: 430px;
+    position: absolute;
+    top: 70px;
+}
+
+.name h3{
+    color: black;
+    padding-left: 10px;
+}
+
+.WordPress{
+padding-top: 100px;
+margin-left: 270px;
+color: rgba(45, 165, 251, 1);
+}
+
+.content p{
+    padding-bottom: 20px;
+}
+.content-p{
+   
+    padding-left: 250px;
+    padding-right: 250px;
+}
+.maincontent{
+    color: black;
+padding-left: 270px;
+width: 1100px;
+}
+.icon{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    color:rgba(102, 102, 102, 1);
+    padding: 50px;
+}
+.text {
+    padding-bottom: 20px;
+    padding-left: 80px;
+}
+.icon1{
+    padding-left: 180px;
+    position: relative;
+    bottom: -180px;
+}
+
+
+.subsub{
+    height: 80px;
+    padding-top: px;
+    display: grid;
+    grid-template-columns: 130px auto;
+    width: 500px;
+}
+.tk{
+color: rgba(45, 165, 251, 1);
+}
+.chitiet{
+    color: rgba(68, 68, 68, 1);
+
+}
+.subsub p{
+    padding-left: 30px;
+}

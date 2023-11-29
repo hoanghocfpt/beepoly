@@ -15,7 +15,7 @@
             <div class="popular">
                 <?php foreach($popular as $popularItem): ?>
                 <div class="popular_container">
-                    <img src="<?php echo '../view/images/'.$popularItem['thumbnail']?>" alt="">
+                    <img src="<?php echo $url.'/view/images/'.$popularItem['thumbnail']?>" alt="">
                     <div class="heading">
                         <a href="#">
                             
@@ -45,10 +45,10 @@
                 </div>
                 <div class="recent_posts_container">
                     <?php foreach ($recentPosts as $item): ?>
-                    <a href="#">
+                    <a href="<?php echo $url.'post/'.$item['id']?>">
                         <div class="post_item">
                             <div class="img">
-                                <img src="<?php echo "../view/images/".$item['thumbnail']?>" alt="">
+                                <img src="<?php echo $url."view/images/".$item['thumbnail']?>" alt="">
                             </div>
                             <div class="heading">
                                 <h4 class="title_post"><?php echo $item['title']?></h4>

@@ -16,14 +16,14 @@
  
 ?>
      <div class="banner-user">
-        <img src="../view/images/banner-post.jpg" alt="">
+        <img src="<?php echo $url?>/view/images/banner-post.jpg" alt="">
         
     </div>
     </div>
 </div>
 
 <div class="avater">
-    <img src="../view/images/banner-user.jpg" alt="">
+    <img src="<?php echo $url?>/view/images/banner-user.jpg" alt="">
     <div class="name"><h3>Lê Tấn Vũ</h3></div>
 </div>
     <div class="content">
@@ -61,10 +61,10 @@
         <img src="<?php echo $postItem['thumbnail']?>" alt="" width="50px">
         <h6><?php echo $postItem['id_author']?></h6>
         <h6><?php echo $postItem['date']?></h6>
-       </div>
+        </div>
         </div>
              <?php endforeach;?>   
             
-                    </div>
+        </div>
                     
                    

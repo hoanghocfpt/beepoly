@@ -15,7 +15,7 @@
             case 'user':
                 $page = 'user';
                 break;
-                case 'post':
+            case 'post':
                 $page='post';
                 break;
             case 'signin':
