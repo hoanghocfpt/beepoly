@@ -1,6 +1,9 @@
 <?php 
     include_once '../config.php';
-    echo "MENU!";
+    include_once '../view/header.php';
+    
+   
+ 
     if(isset($_GET['page'])) {
         switch($_GET['page']) {
             case 'home':
@@ -32,8 +35,10 @@
         $page = 'home';
     }
 
+
     include_once("../model/".$page.".php");
 
     include_once("../view/".$page.".php");
-    echo "Footer";
+   
+    include_once '../view/footer.php';
 ?>

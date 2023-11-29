@@ -1,10 +1,77 @@
 <?php 
-    echo "Welcome to the homepage!";
+   
     // Gọi dữ liệu ở đây
     $popular = getPopular();
-     print_r($popular);
+   
 
     $recentPosts=getRecentPosts(9);
-    print_r($recentPosts);
-    
+
 ?>
+
+
+
+
+        <div class="homepage">
+            <div class="popular">
+                <?php foreach($popular as $popularItem): ?>
+                <div class="popular_container">
+                    <img src="<?php echo '../view/images/'.$popularItem['thumbnail']?>" alt="">
+                    <div class="heading">
+                        <a href="#">
+                            
+                            <div class="text">
+                                <span class="label">Phổ biến</span>
+                                <h2><?php echo $popularItem['title']?></h2>
+                                <p><?php echo $popularItem['content']?></p>
+                            </div>
+                            
+                            <div class="icon_link">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                                </svg>
+                                  
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <?php endforeach;?>
+            </div>
+
+
+            <div class="recent_posts">
+                <div class="heading">
+                    <h3>Bài viết gần đây</h3>
+                </div>
+                <div class="recent_posts_container">
+                    <?php foreach ($recentPosts as $item): ?>
+                    <a href="#">
+                        <div class="post_item">
+                            <div class="img">
+                                <img src="<?php echo "../view/images/".$item['thumbnail']?>" alt="">
+                            </div>
+                            <div class="heading">
+                                <h4 class="title_post"><?php echo $item['title']?></h4>
+                                <div class="more">
+                                    <div class="author_img">
+                                        <img src="../view/images/banner.jpg" alt="">
+                                        <div class="name_author"><?php echo $item['id_author']?></div>
+                                    </div>
+                                    
+                                    <div class="like"> <?php echo $item['likes']?> lượt thích</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <?php endforeach;?>
+                   
+                </div>
+                <div class="btn_see_more">
+                    <a href="#">Xem thêm</a>
+                </div>
+            </div>
+        </div>
+
+
+       
+  
