@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BeePoly</title>
     <link rel="stylesheet" href="<?php echo $url?>view/css/style.css">
     <link rel="stylesheet" href="<?php echo $url?>view/css/home.css">
     <link rel="stylesheet" href="<?php echo $url?>view/css/blog.css">
