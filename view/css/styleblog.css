@@ -49,7 +49,7 @@ input .btn_signin{
     gap: 15px;
     display: flex;
 }
-
+/* 
 .footer-column {
     display: inline-grid;
     padding: 25px;
@@ -81,7 +81,7 @@ footer{
 .footer{
     background-color: #092856;
     border-radius: 10px;
-}
+} */
 
 .btn_signin button {
     background-color: #092856;
@@ -95,14 +95,14 @@ a{
     text-decoration: none;
     color: aliceblue;
 }
-
+/* 
 .footer-end,h3,h4{
     color: aliceblue;
     font-style:normal;
     padding-bottom: 50px;
     padding-top: 30px;
 
-}
+} */
 
 .menu li {
     position: relative;
@@ -125,11 +125,11 @@ input{
     background-color: #092856;
     color: aliceblue;
 }
-.footer button{
+/* .footer button{
 padding: 10px;
 border-radius: 5px;
 color: #092856;
-}
+} */
 .banner img{
     width: 66%;
     border-radius: 5px;

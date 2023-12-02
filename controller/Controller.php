@@ -1,6 +1,9 @@
 <?php 
     include_once '../config.php';
-    echo "MENU!";
+    include_once '../view/header.php';
+    
+   
+ 
     if(isset($_GET['page'])) {
         switch($_GET['page']) {
             case 'home':
@@ -12,7 +15,7 @@
             case 'user':
                 $page = 'user';
                 break;
-                case 'post':
+            case 'post':
                 $page='post';
                 break;
             case 'signin':
@@ -24,6 +27,10 @@
             case 'saved':
                 $page = 'saved';
                 break;
+            case 'AI':
+                $page='AI';
+               
+                break;
             default:
                 $page = 'home';
                 break;
@@ -32,8 +39,10 @@
         $page = 'home';
     }
 
+
     include_once("../model/".$page.".php");
 
     include_once("../view/".$page.".php");
-    echo "Footer";
+   
+    include_once '../view/footer.php';
 ?>
