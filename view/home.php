@@ -22,7 +22,7 @@
                             <div class="text">
                                 <span class="label">Phổ biến</span>
                                 <h2><?php echo $popularItem['title']?></h2>
-                                <p><?php echo $popularItem['contentshow']?></p>
+                                <p><?php echo $popularItem['content']?></p>
                             </div>
                             
                             <div class="icon_link">
