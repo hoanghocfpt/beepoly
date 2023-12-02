@@ -22,7 +22,7 @@
                             <div class="text">
                                 <span class="label">Phổ biến</span>
                                 <h2><?php echo $popularItem['title']?></h2>
-                                <p><?php echo $popularItem['contentshow']?></p>
+                                <p><?php echo $popularItem['content']?></p>
                             </div>
                             
                             <div class="icon_link">
@@ -53,7 +53,7 @@
                             <div class="heading">
                                 <h4 class="title_post"><?php echo $item['title']?></h4>
                                 <br>
-                                <p class="des"><?php echo $item['contentshow']?></p>
+                                <p class="des"><?php echo $item['content']?></p>
                                 <br>
                                 <div class="like"> <?php echo $item['likes']?> lượt thích</div>
                                 <div class="more">

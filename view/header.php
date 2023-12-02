@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="<?php echo $url?>view/css/blog.css">
 
     <link rel="stylesheet" href="<?php echo $url?>view/css/dangnhap.css">
-  
+    
  
 
 </head>
