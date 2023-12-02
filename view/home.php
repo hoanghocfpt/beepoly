@@ -53,7 +53,7 @@
                             <div class="heading">
                                 <h4 class="title_post"><?php echo $item['title']?></h4>
                                 <br>
-                                <p class="des"><?php echo $item['contentshow']?></p>
+                                <p class="des"><?php echo $item['content']?></p>
                                 <br>
                                 <div class="like"> <?php echo $item['likes']?> lượt thích</div>
                                 <div class="more">
