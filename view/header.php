@@ -41,8 +41,8 @@
                 </div>
                 <div class="nav_link">
                     <ul>
-                        <li><a href="home">Trang chủ</a></li>
-                        <li><a href="blog">Bài viết</a></li>
+                        <li><a href="<?php echo $url?>home">Trang chủ</a></li>
+                        <li><a href="<?php echo $url?>blog">Bài viết</a></li>
                         <li>
                             <span>
                                 Các chủ đề 
