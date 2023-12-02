@@ -17,7 +17,7 @@
         $sql = "SELECT posts.*, categories.name AS category_name
         FROM posts
         LEFT JOIN categories ON posts.id_category = categories.id
-        ORDER BY posts.id DESC
+        ORDER BY posts.id DESC LIMIT ".$quantity."
      ";
         $stmt = $conn->prepare($sql);
         $stmt->execute();

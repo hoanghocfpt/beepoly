@@ -4,7 +4,7 @@
     $popular = getPopular();
    
 
-    $recentPosts=getRecentPosts(9);
+    $recentPosts=getRecentPosts(15);
 
 ?>
 
