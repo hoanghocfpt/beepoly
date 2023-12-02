@@ -110,6 +110,8 @@
     -webkit-line-clamp: 2; /* Số dòng muốn hiển thị trước khi ngắt */
     -webkit-box-orient: vertical;
 }
+
+
 .container .homepage .recent_posts .recent_posts_container a .post_item .heading .more{
     display: flex;
     align-items: center;
