@@ -12,9 +12,7 @@
             case 'blog':
                 $page = 'blog';
                 break;
-            case 'admin':
-                $page = 'admin';
-                break;    
+            
             case 'user':
                 $page = 'user';
                 break;
@@ -33,9 +31,9 @@
             case 'about':
                 $page='about';
                 break;
-                case 'search':
-                    $page='search';
-                    break;
+            case 'search':
+                $page='search';
+                break;
             default:
                 $page = 'home';
                 break;

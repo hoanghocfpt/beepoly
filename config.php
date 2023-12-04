@@ -1,6 +1,6 @@
 <?php 
 
-    $url = 'http://localhost:81/beepoly/';
+    $url = 'http://localhost/beepoly/';
     
     
 
