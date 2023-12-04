@@ -12,6 +12,9 @@
             case 'blog':
                 $page = 'blog';
                 break;
+            case 'admin':
+                $page = 'admin';
+                break;    
             case 'user':
                 $page = 'user';
                 break;

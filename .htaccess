@@ -2,6 +2,7 @@ RewriteEngine On
 RewriteBase /beepoly/
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
+
 RewriteRule ^home$ controller/Controller.php?page=home [L]
 RewriteRule ^blog$ controller/Controller.php?page=blog [L]
 RewriteRule ^signin$ controller/Controller.php?page=signin [L]
@@ -10,5 +11,6 @@ RewriteRule ^about$ controller/Controller.php?page=about [L]
 RewriteRule ^post$ controller/Controller.php?page=post [L]
 RewriteRule ^about$ controller/Controller.php?page=about [L]
 RewriteRule ^search$ controller/Controller.php?page=search [L]
+RewriteRule ^admin$ controller/Controller.php?page=admin [L]
 RewriteRule ^post/(.*)$ controller/Controller.php?page=post&id=$1 [L]
 RewriteRule ^blog/(.*)$ controller/Controller.php?page=blog&category=$1 [L]
