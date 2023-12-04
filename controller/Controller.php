@@ -1,7 +1,5 @@
 <?php 
-    include_once '../config.php';
-    include_once '../view/header.php';
-    
+  
    
  
     if(isset($_GET['page'])) {
@@ -12,7 +10,9 @@
             case 'blog':
                 $page = 'blog';
                 break;
-            
+            case 'admin':
+                $page = 'admin';
+                break;
             case 'user':
                 $page = 'user';
                 break;
@@ -41,11 +41,28 @@
     } else {
         $page = 'home';
     }
-
-
-    include_once("../model/".$page.".php");
-
-    include_once("../view/".$page.".php");
-   
-    include_once '../view/footer.php';
+    $_SESSION['user']['role'] = 'admin';
+    if($page === 'admin'){
+        if(isset($_SESSION['user'])){
+            if($_SESSION['user']['role'] === 'admin'){
+                $page = 'admin';
+            }else{
+                header("Location: ./home");
+            }
+        }else{
+            header("Location: ./home");
+        }
+        include_once("../model/".$page.".php");
+        include_once("../view/".$page.".php");
+    }else{
+        include_once '../config.php';
+        include_once '../view/header.php';
+        
+        include_once("../model/".$page.".php");
+    
+        include_once("../view/".$page.".php");
+       
+        include_once '../view/footer.php';
+    }
+    
 ?>
