@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 <?php
  
 ?>
@@ -67,10 +67,7 @@
                                 <li><a href="<?php echo $url?>blog/5">Blockchain</a></li>
                             </ul>
                         </li>
-
-                        <li><a href="<?php echo $url?>about">Về chúng tôi</a></li>
-         
-
+                        <li><a href="about">Về chúng tôi</a></li>
                     </ul>
                 </div>
                 <div class="right">
@@ -82,9 +79,12 @@
                     </div>
                     <div class="login">
 
+
                     <a href="<?php echo $url?>signin">Đăng kí</a>
                         <a href="<?php echo $url?>signup">Đăng nhập</a>
          
+
+                        <a href="<?php echo $url?>signin">Đăng nhập</a>
 
                     </div>
                     <div class="bar_icon" id="bar-icon">
@@ -96,7 +96,7 @@
                 </div>
             </div>
         </nav>
-=======
+
 <!DOCTYPE html>
 <html lang="vi">
 <head>
@@ -177,5 +177,5 @@
                 </div>
             </div>
         </nav>
->>>>>>> Stashed changes
+
         

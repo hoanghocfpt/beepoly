@@ -1,8 +1,8 @@
 let slug = document.querySelector('#textSearch');
 let link = document.querySelector('#linkSearch');
-
+var url = 'http://localhost/beepoly/';
 slug.addEventListener('input', function() {
-    link.setAttribute('href', './beepoly/search/' + encodeURIComponent(slug.value));
+    link.setAttribute('href', url+'search/' + encodeURIComponent(slug.value));
     console.log(slug.value);
 });
 // search pop up

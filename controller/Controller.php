@@ -27,6 +27,15 @@
             case 'saved':
                 $page = 'saved';
                 break;
+            case 'about':
+                $page='about';
+                break;
+            case 'search':
+                $page='search';
+                break;
+                case 'search':
+                    $page='search';
+                    break;
             default:
                 $page = 'home';
                 break;
