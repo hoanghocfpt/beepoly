@@ -24,5 +24,5 @@
             </div>
         </footer>
     </div>
-    <script src="view/js/index.js"></script>
+    <script src="<?php echo $url?>view/js/index.js"></script>
 </body>
