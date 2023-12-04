@@ -1,30 +1,4 @@
 /* CSS cho phần bài viết gần đây */
-.menu-body {
-    display: flex;
-    justify-content: center; /* Căn giữa các mục theo chiều ngang */
-    margin-top: 100px;
-}
-.menu-body a.active {
-    background-color: #b4b3b3; /* Màu nền khi active */
-    color: #fff; /* Màu chữ khi active */
-}
-
-
-
-.menu-body a {
-    text-decoration: none;
-    color: #333;
-    margin: 0 15px; /* Khoảng cách giữa các mục */
-    padding: 10px 15px;
-    border-radius: 5px;
-    transition: background-color 0.1s ease-in-out;
-    background-color: #fff; /* Màu nền mặc định */
-}
-
-.menu-body a:hover {
-    background-color: #b4b3b3; /* Màu nền khi hover */
-}
-
 
 .recent_posts1 {
     padding: 50px 0;
@@ -43,30 +17,6 @@
     flex-wrap: wrap;
     gap: 20px;
 }
-.dm{
-    color: #2DA5FB;
-    margin-left: 10px;
-}
-
-
-
-.like1 {
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 1;
-    color: #000;
-    margin-bottom: 10px;
-}
-
-.date {
-    font-size: 10px;
-    font-weight: 600;
-    line-height: 1;
-    color: #000;
-    margin-left: 320px;
-}
-
-
 
 .recent_posts_container1 a {
     text-decoration: none;
