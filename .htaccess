@@ -11,14 +11,11 @@ RewriteRule ^about$ controller/Controller.php?page=about [L]
 RewriteRule ^post$ controller/Controller.php?page=post [L]
 RewriteRule ^about$ controller/Controller.php?page=about [L]
 RewriteRule ^search$ controller/Controller.php?page=search [L]
-<<<<<<< HEAD
-=======
 RewriteRule ^admin$ controller/Controller.php?page=admin [L]
 RewriteRule ^admin/dashboard$ controller/Controller.php?page=admin&act=dashboard [L]
 RewriteRule ^admin/users$ controller/Controller.php?page=admin&act=users [L]
 RewriteRule ^admin/posts$ controller/Controller.php?page=admin&act=posts [L]
 RewriteRule ^admin/categories$ controller/Controller.php?page=admin&act=categories [L]
->>>>>>> bad86c1eafb0ff45ec893e8a75c7b071786d9bcc
 RewriteRule ^post/(.*)$ controller/Controller.php?page=post&id=$1 [L]
 RewriteRule ^blog/(.*)$ controller/Controller.php?page=blog&category=$1 [L]
 RewriteRule ^search/([^/]+)$ controller/Controller.php?page=search&slug=$1 [L]

@@ -30,12 +30,10 @@
                 break;
             case 'about':
                 $page='about';
-<<<<<<< HEAD
-=======
                 break;
             case 'search':
                 $page='search';
->>>>>>> bad86c1eafb0ff45ec893e8a75c7b071786d9bcc
+
                 break;
                 case 'search':
                     $page='search';
