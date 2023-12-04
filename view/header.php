@@ -66,11 +66,7 @@
                                 <li><a href="<?php echo $url?>blog/5">Blockchain</a></li>
                             </ul>
                         </li>
-<<<<<<< HEAD
-                        <li><a href="<?php echo $url?>about">Về chúng tôi</a></li>
-=======
                         <li><a href="about">Về chúng tôi</a></li>
->>>>>>> bad86c1eafb0ff45ec893e8a75c7b071786d9bcc
                     </ul>
                 </div>
                 <div class="right">
@@ -81,12 +77,7 @@
                           
                     </div>
                     <div class="login">
-<<<<<<< HEAD
-                    <a href="<?php echo $url?>signin">Đăng kí</a>
-                        <a href="<?php echo $url?>signup">Đăng nhập</a>
-=======
                         <a href="<?php echo $url?>signin">Đăng nhập</a>
->>>>>>> bad86c1eafb0ff45ec893e8a75c7b071786d9bcc
                     </div>
                     <div class="bar_icon" id="bar-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
