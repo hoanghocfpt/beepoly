@@ -1,7 +1,7 @@
 <main>
 
 <div class="menu-body" style="margin-top:100px; "> 
-        <a href="<?php echo $url ?>blog">Tất Cả</a>
+        <a menu-link active href="<?php echo $url ?>blog">Tất Cả</a>
         <a href="<?php echo $url ?>blog/1">Website</a>
         <a href="<?php echo $url ?>blog/2">SEO</a>
         <a href="<?php echo $url ?>blog/4">Học Tập</a>
@@ -32,3 +32,5 @@
  
 
  </main>
+
+ 

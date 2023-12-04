@@ -27,10 +27,12 @@
             case 'saved':
                 $page = 'saved';
                 break;
-            case 'AI':
-                $page='AI';
-               
+            case 'about':
+                $page='about';
                 break;
+                case 'search':
+                    $page='search';
+                    break;
             default:
                 $page = 'home';
                 break;

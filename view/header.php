@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="<?php echo $url?>view/css/style.css">
     <link rel="stylesheet" href="<?php echo $url?>view/css/home.css">
     <link rel="stylesheet" href="<?php echo $url?>view/css/blog.css">
-    
+    <link rel="stylesheet" href="<?php echo $url?>view/css/about.css">
+    <link rel="stylesheet" href="<?php echo $url?>view/css/search.css">
     <link rel="stylesheet" href="<?php echo $url?>view/css/dangnhap.css">
+    <link rel="stylesheet" href="<?php echo $url?>view/js/blog.js">
     
  
 
@@ -58,7 +60,7 @@
                                 <li><a href="#">Về Chúng Tôi</a></li>
                             </ul>
                         </li>
-                        <li><a href="<?php $url?>page/about">Về chúng tôi</a></li>
+                        <li><a href="about">Về chúng tôi</a></li>
                     </ul>
                 </div>
                 <div class="right">
@@ -69,7 +71,7 @@
                           
                     </div>
                     <div class="login">
-                        <a href="Controller.php?page=signup">Đăng nhập</a>
+                        <a href="signup">Đăng nhập</a>
                     </div>
                     <div class="bar_icon" id="bar-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">

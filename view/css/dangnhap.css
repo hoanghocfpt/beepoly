@@ -18,16 +18,7 @@ body {
     margin-left: 5px;
 }
 
-.form_signup p {
-    color: #000;
-    text-align: center;
-    font-family: 'Arial', sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 143.4%;
-    margin-left: 5px;
-}
+
 .form_signup .label{
     text-align: left;
 }
@@ -178,5 +169,7 @@ body {
     display: flex;
     padding: 10px;
 }
-
+.ten{
+    text-align: left;
+}
 
