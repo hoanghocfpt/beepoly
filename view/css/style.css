@@ -180,6 +180,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 5px;
+   
 }
 .container .navmain .right .login a{
     padding: 18px 32px;
@@ -189,6 +191,7 @@
     font-weight: 600;
     font-size: 14px;
     background-color: #092856;
+   
 }
 
 .container .navmain .right .bar_icon{

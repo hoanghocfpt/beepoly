@@ -66,7 +66,7 @@
                    
                 </div>
                 <div class="btn_see_more">
-                    <a href="#">Xem thêm</a>
+                    <a href="blog">Xem thêm</a>
                 </div>
             </div>
         </div>

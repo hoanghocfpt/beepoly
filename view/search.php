@@ -1,9 +1,23 @@
-<div class="recent_posts1">
+<?php 
+   
+ 
+  
+
+   $recentPosts=getRecentPosts(15);
+
+?>
+<br>
+<br>
+<br>
+<br><br><br>
+
+ <h2>Từ Khóa Bạn Vừa Tìm Kiếm:"a" </h2>
+ <div class="recent_posts1">
                 <div class="heading1">
-                    <h2>Bài viết gần đây</h2>
+                    <h3>Bài viết gần đây</h3>
                 </div>
                 <div class="recent_posts_container1">
-                    <?php foreach ($showPosts as $item): ?>
+                    <?php foreach ($recentPosts as $item): ?>
                     <a href="<?php echo $url.'post/'.$item['id']?>">
                         <div class="post_item1">
                             <div class="img1">
@@ -28,4 +42,4 @@
                     <a href="blog">Xem thêm</a>
                 </div> -->
             </div>
-     
+       

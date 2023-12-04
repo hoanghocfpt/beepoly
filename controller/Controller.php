@@ -9,6 +9,12 @@
             case 'home':
                 $page = 'home';
                 break;
+            case 'signin':
+                $page = 'signin';
+                break;
+            case 'signup':
+                $page = 'signup';
+                break;
             case 'blog':
                 $page = 'blog';
                 break;
@@ -18,19 +24,15 @@
             case 'post':
                 $page='post';
                 break;
-            case 'signin':
-                $page = 'signin';
-                break;
-            case 'signup':
-                $page = 'signup';
-                break;
             case 'saved':
                 $page = 'saved';
                 break;
-            case 'AI':
-                $page='AI';
-               
+            case 'about':
+                $page='about';
                 break;
+                case 'search':
+                    $page='search';
+                    break;
             default:
                 $page = 'home';
                 break;
