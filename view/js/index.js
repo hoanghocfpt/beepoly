@@ -1,5 +1,12 @@
+let slug = document.querySelector('#textSearch');
+let link = document.querySelector('#linkSearch');
+
+slug.addEventListener('input', function() {
+    link.setAttribute('href', './beepoly/search/' + encodeURIComponent(slug.value));
+    console.log(slug.value);
+});
 // search pop up
-console.log("clicked");
+console.log(slug);
 const seacrhIcon = document.querySelector("#search-icon");
 const searchPopup = document.querySelector(".search_popup");
 seacrhIcon.addEventListener("click", () => {
@@ -15,4 +22,3 @@ if (searchPopup) {
         }
     });
 }
-

@@ -1,7 +1,5 @@
 <?php 
-    include_once '../config.php';
-    include_once '../view/header.php';
-    
+  
    
  
     if(isset($_GET['page'])) {
@@ -18,6 +16,9 @@
             case 'blog':
                 $page = 'blog';
                 break;
+            case 'admin':
+                $page = 'admin';
+                break;
             case 'user':
                 $page = 'user';
                 break;
@@ -29,6 +30,12 @@
                 break;
             case 'about':
                 $page='about';
+<<<<<<< HEAD
+=======
+                break;
+            case 'search':
+                $page='search';
+>>>>>>> bad86c1eafb0ff45ec893e8a75c7b071786d9bcc
                 break;
                 case 'search':
                     $page='search';
@@ -40,11 +47,53 @@
     } else {
         $page = 'home';
     }
-
-
-    include_once("../model/".$page.".php");
-
-    include_once("../view/".$page.".php");
-   
-    include_once '../view/footer.php';
+    // $_SESSION['user']['role'] = 'admin';
+    if($page === 'admin'){
+        // if(isset($_SESSION['user'])){
+        //     if($_SESSION['user']['role'] === 'admin'){
+        //         $page = 'admin';
+        //     }else{
+        //         header("Location: ./home");
+        //     }
+        // }else{
+        //     header("Location: ./home");
+        // }
+        if(isset($_GET['act'])){
+            $act = $_GET['act'];
+            switch ($act) {
+                case 'dashboard':
+                    $page = 'dashboard';
+                    break;
+                case 'categories':
+                    $page = 'categories';
+                    break;
+                case 'posts':
+                    $page = 'posts';
+                    break;
+                case 'users':
+                    $page = 'users';
+                    break;
+                
+                default:
+                    $page = 'dashboard';
+                    break;
+            }
+        }else{
+            $page = 'dashboard';
+        }
+        include_once '../config.php';
+        include_once("../model/admin/".$page.".php");
+        include_once '../view/admin/layout.php';
+        include_once("../view/admin/".$page.".php");
+    }else{
+        include_once '../config.php';
+        include_once '../view/header.php';
+        
+        include_once("../model/".$page.".php");
+    
+        include_once("../view/".$page.".php");
+       
+        include_once '../view/footer.php';
+    }
+    
 ?>

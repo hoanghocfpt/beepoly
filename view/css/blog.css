@@ -43,6 +43,33 @@
     flex-wrap: wrap;
     gap: 20px;
 }
+<<<<<<< HEAD
+=======
+.dm{
+    color: #2DA5FB;
+    margin-left: 10px;
+}
+
+
+
+.like1 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.date {
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 1;
+    color: #000;
+    margin-left: 320px;
+}
+
+
+>>>>>>> bad86c1eafb0ff45ec893e8a75c7b071786d9bcc
 
 .recent_posts_container1 a {
     text-decoration: none;

@@ -169,5 +169,7 @@ body {
     display: flex;
     padding: 10px;
 }
-
+.ten{
+    text-align: left;
+}
 

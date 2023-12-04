@@ -56,6 +56,7 @@
                                 <p class="des"><?php echo $item['content']?></p>
                                 <br>
                                 <div class="like"> <?php echo $item['likes']?> lượt thích</div>
+                                
                                 <div class="more">
                                     <p>xem thêm...</p>
                                 </div>
