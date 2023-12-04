@@ -12,8 +12,6 @@
     $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
     return $result;
 }
-<<<<<<< HEAD
-=======
 function searchPosts($slug) {
    $conn = connectDb();
    $sql = "SELECT * FROM posts
@@ -25,5 +23,4 @@ function searchPosts($slug) {
    return $result;
 }
 
->>>>>>> bad86c1eafb0ff45ec893e8a75c7b071786d9bcc
 ?>

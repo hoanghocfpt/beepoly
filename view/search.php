@@ -1,12 +1,4 @@
 <?php 
-<<<<<<< HEAD
-   
- 
-  
-
-   $recentPosts=getRecentPosts(15);
-
-=======
   $recentPosts=getRecentPosts(3);
     // Nơi xử lý form tìm kiếm
     // if(isset($_GET['search'])){
@@ -24,16 +16,12 @@
         $resultPosts = searchPosts($slug);
     }
        
->>>>>>> bad86c1eafb0ff45ec893e8a75c7b071786d9bcc
 ?>
 <br>
 <br>
 <br>
 <br><br><br>
 
-<<<<<<< HEAD
- <h2>Từ Khóa Bạn Vừa Tìm Kiếm:"a" </h2>
-=======
  <h2>Từ Khóa Bạn Vừa Tìm Kiếm:"<?= $_GET['slug']?>" </h2>
 <div class="resultPosts">
     <div class="recent_posts_container1">
@@ -59,7 +47,6 @@
         
     </div>
 </div> 
->>>>>>> bad86c1eafb0ff45ec893e8a75c7b071786d9bcc
  <div class="recent_posts1">
                 <div class="heading1">
                     <h3>Bài viết gần đây</h3>
