@@ -61,8 +61,20 @@
                 case 'categories':
                     $page = 'categories';
                     break;
+                case 'categories_add':
+                    $page = 'categories_add';
+                    break;
+                case 'categories_edit':
+                    $page = 'categories_edit';
+                    break;
                 case 'posts':
                     $page = 'posts';
+                    break;
+                case 'posts_add':
+                    $page = 'posts_add';
+                    break;
+                case 'posts_edit':
+                    $page = 'posts_edit';
                     break;
                 case 'users':
                     $page = 'users';
