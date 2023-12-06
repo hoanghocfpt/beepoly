@@ -1,11 +1,31 @@
+<<<<<<< HEAD
+/* Use the same styling for resultPosts1 as recent_posts1 */
+
+.resultPosts1 {
+=======
 /* CSS cho phần bài viết gần đây */
 
 .recent_posts1 {
+>>>>>>> ed35eaea4b18854329e0834acefa4d0b0c90ecd6
     padding: 50px 0;
     margin-left: 100px;
     margin-right: 100px;
 }
 
+<<<<<<< HEAD
+.resultPosts1 .heading1 h5 {
+    color: #2DA5FB;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.resultPosts1 .recent_posts_container1 {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.resultPosts1 .post_item1 {
+    border-radius: 12px;
+=======
 .heading1 h3 {
     font-size: 20px;
     font-weight: 700;
@@ -33,19 +53,41 @@
     border: 1px solid #e5e5e5;
     border-radius: 8px;
     overflow: hidden;
+>>>>>>> ed35eaea4b18854329e0834acefa4d0b0c90ecd6
     margin-bottom: 20px;
     transition: box-shadow 0.3s ease-in-out;
 }
 
+<<<<<<< HEAD
+.resultPosts1 .post_item1:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.resultPosts1 .img1 {
+    padding: 10px;
+}
+
+.resultPosts1 .img1 img {
+=======
 .post_item1:hover {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 .img1 img {
+>>>>>>> ed35eaea4b18854329e0834acefa4d0b0c90ecd6
     width: 100%;
     height: 220px;
     object-fit: cover;
     border-radius: 8px 8px 0 0;
+<<<<<<< HEAD
+}
+
+.resultPosts1 .heading1 {
+    padding: 15px;
+}
+
+.resultPosts1 .title_post {
+=======
   
 }
 
@@ -56,12 +98,24 @@
 }
 
 .title_post {
+>>>>>>> ed35eaea4b18854329e0834acefa4d0b0c90ecd6
     font-size: 18px;
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 10px;
 }
 
+<<<<<<< HEAD
+.resultPosts1 .des1 {
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.resultPosts1 .like1 {
+=======
 .des1 {
     margin-bottom: 10px;
     overflow: hidden;
@@ -71,6 +125,7 @@
 }
 
 .like1 {
+>>>>>>> ed35eaea4b18854329e0834acefa4d0b0c90ecd6
     font-size: 14px;
     font-weight: 600;
     line-height: 1;
@@ -78,14 +133,22 @@
     margin-bottom: 10px;
 }
 
+<<<<<<< HEAD
+.resultPosts1 .more1 {
+=======
 .more1 {
+>>>>>>> ed35eaea4b18854329e0834acefa4d0b0c90ecd6
     display: flex;
     align-items: center;
     gap: 24px;
     padding: 10px 0;
 }
 
+<<<<<<< HEAD
+.resultPosts1 .btn_see_more1 a {
+=======
 .btn_see_more1 a {
+>>>>>>> ed35eaea4b18854329e0834acefa4d0b0c90ecd6
     padding: 18px 32px;
     color: #fff;
     text-decoration: none;
@@ -97,6 +160,46 @@
     transition: background-color 0.3s ease-in-out;
 }
 
+<<<<<<< HEAD
+.resultPosts1 .btn_see_more1 a:hover {
+    background-color: #1c7ed6;
+}
+
+/* Responsive adjustments for smaller screens */
+@media only screen and (max-width: 640px) {
+    .resultPosts1 .recent_posts_container1 a {
+        width: calc(50% - 10px);
+    }
+
+    .resultPosts1 .img1 img {
+        height: 180px;
+    }
+}
+/* Styling for the search result heading */
+h5 {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 100px;
+   
+    border-radius: 8px;
+    position: relative;
+    animation: colorChange 1s infinite alternate; /* Apply the colorChange animation */
+}
+
+/* Keyframes for the colorChange animation */
+@keyframes colorChange {
+    from {
+        color:#000;
+    }
+    to {
+        color: #1c7ed6;
+    }
+}
+
+=======
 .btn_see_more1 a:hover {
     background-color: #1c7ed6;
 }
@@ -107,3 +210,4 @@
         width: calc(50% - 20px); /* Hiển thị 2 cột trên mỗi hàng */
     }
 }
+>>>>>>> ed35eaea4b18854329e0834acefa4d0b0c90ecd6

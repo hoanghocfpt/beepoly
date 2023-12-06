@@ -24,7 +24,11 @@
             <h2>Cộng Đồng</h2>
             <div class="community">
                 <p class="community-intro">Chúng tôi coi trọng sự tương tác với độc giả. Đừng ngần ngại chia sẻ ý kiến, gửi câu hỏi, hoặc đóng góp thông tin của bạn. Blog của chúng tôi không chỉ là nơi để đọc, mà còn để giao lưu và học hỏi từ nhau.</p>
+<<<<<<< HEAD
+                <img src="view/images/banner-user.jpg" alt="Cộng đồng của chúng tôi">
+=======
                 <img src="view/images/post3.png" alt="Cộng đồng của chúng tôi">
+>>>>>>> ed35eaea4b18854329e0834acefa4d0b0c90ecd6
             </div>
 
             <p class="thank-you">Cảm ơn bạn đã là một phần của cộng đồng <span class="blog-name">BEEPOLY</span>. Hãy thăm thường xuyên để khám phá những bài viết mới và cùng chia sẻ kiến thức. Nếu bạn có bất kỳ câu hỏi hoặc đề xuất nào, hãy liên hệ với chúng tôi. Chúc bạn đọc vui vẻ!</p>

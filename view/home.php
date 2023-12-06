@@ -16,6 +16,10 @@
                 <?php foreach($popular as $popularItem): ?>
                 <div class="popular_container">
                     <img src="<?php echo  $url."view/images/".$popularItem['thumbnail']?>" alt="">
+<<<<<<< HEAD
+                   
+=======
+>>>>>>> ed35eaea4b18854329e0834acefa4d0b0c90ecd6
                     <div class="heading">
                         <a href="#">
                             

@@ -11,13 +11,21 @@
 <?php 
     $showPosts = getRecentPosts(6);
     if(isset($_GET['category'])){
+<<<<<<< HEAD
+        
+=======
         echo 'co category';
+>>>>>>> ed35eaea4b18854329e0834acefa4d0b0c90ecd6
         $category = $_GET['category'];
         $showPosts = getPostsByCategory($category);
         include_once 'category.php';
         
     }else{
+<<<<<<< HEAD
+        
+=======
         echo "khong co category";
+>>>>>>> ed35eaea4b18854329e0834acefa4d0b0c90ecd6
         $showCategories = getCategory();
         $showPosts = getRecentPosts(6);
         

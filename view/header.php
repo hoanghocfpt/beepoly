@@ -14,8 +14,26 @@
     <link rel="stylesheet" href="<?php echo $url?>view/css/about.css">
     <link rel="stylesheet" href="<?php echo $url?>view/css/search.css">
     <link rel="stylesheet" href="<?php echo $url?>view/css/dangnhap.css">
+<<<<<<< HEAD
+    <link rel="stylesheet" href="<?php echo $url?>view/css/post.css">
+    <link rel="stylesheet" href="<?php echo $url?>view/js/blog.js">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+=======
     <link rel="stylesheet" href="<?php echo $url?>view/js/blog.js">
     
+>>>>>>> ed35eaea4b18854329e0834acefa4d0b0c90ecd6
  
 
 </head>
@@ -59,6 +77,16 @@
                                   
                             </span>
                             <ul>
+<<<<<<< HEAD
+                                <li><a href="<?php echo $url?>blog/1">Website</a></li>
+                                <li><a href="<?php echo $url?>blog/2">Seo</a></li>
+                                <li><a href="<?php echo $url?>blog/4">Học Tập</a></li>
+                                <li><a href="<?php echo $url?>blog/3">Lập Trình</a></li>
+                                <li><a href="<?php echo $url?>blog/5">Blockchain</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="<?php echo $url?>about">Về chúng tôi</a></li>
+=======
                                 <li><a href="#">Website</a></li>
                                 <li><a href="#">Bài Viết</a></li>
                                 <li><a href="#">Các Chủ Đề</a></li>
@@ -66,6 +94,7 @@
                             </ul>
                         </li>
                         <li><a href="about">Về chúng tôi</a></li>
+>>>>>>> ed35eaea4b18854329e0834acefa4d0b0c90ecd6
                     </ul>
                 </div>
                 <div class="right">
@@ -76,7 +105,11 @@
                           
                     </div>
                     <div class="login">
+<<<<<<< HEAD
+                        <a href="<?php echo $url?>signup">Đăng nhập</a>
+=======
                         <a href="signup">Đăng nhập</a>
+>>>>>>> ed35eaea4b18854329e0834acefa4d0b0c90ecd6
                     </div>
                     <div class="bar_icon" id="bar-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
